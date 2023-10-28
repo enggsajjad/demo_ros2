@@ -1,0 +1,31 @@
+[0.108s] Invoking command in '/home/sajjad/Downloads/demo_ros2/build/serial_imu1': CMAKE_PREFIX_PATH=/home/sajjad/Downloads/demo_ros2/install/custom_msg1:/home/sajjad/Downloads/demo_ros2/install/pub_sub_custom_msg1:/opt/ros/humble /usr/bin/cmake --build /home/sajjad/Downloads/demo_ros2/build/serial_imu1 -- -j4 -l4
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target talker1[0m
+[0.184s] [ 40%] Built target listener1
+[0.199s] [ 60%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/serial_port.cpp.o[0m
+[6.129s] [ 80%] [32m[1mLinking CXX executable talker1[0m
+[6.432s] [100%] Built target talker1
+[6.446s] Invoked command in '/home/sajjad/Downloads/demo_ros2/build/serial_imu1' returned '0': CMAKE_PREFIX_PATH=/home/sajjad/Downloads/demo_ros2/install/custom_msg1:/home/sajjad/Downloads/demo_ros2/install/pub_sub_custom_msg1:/opt/ros/humble /usr/bin/cmake --build /home/sajjad/Downloads/demo_ros2/build/serial_imu1 -- -j4 -l4
+[6.506s] Invoking command in '/home/sajjad/Downloads/demo_ros2/build/serial_imu1': CMAKE_PREFIX_PATH=/home/sajjad/Downloads/demo_ros2/install/custom_msg1:/home/sajjad/Downloads/demo_ros2/install/pub_sub_custom_msg1:/opt/ros/humble /usr/bin/cmake --install /home/sajjad/Downloads/demo_ros2/build/serial_imu1
+[6.515s] -- Install configuration: ""
+[6.516s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/lib/serial_imu1/talker1
+[6.518s] -- Set runtime path of "/home/sajjad/Downloads/demo_ros2/install/serial_imu1/lib/serial_imu1/talker1" to ""
+[6.518s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/lib/serial_imu1/listener1
+[6.523s] -- Set runtime path of "/home/sajjad/Downloads/demo_ros2/install/serial_imu1/lib/serial_imu1/listener1" to ""
+[6.524s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/launch
+[6.524s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/launch/imu_spec_msg.launch.py
+[6.524s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/ament_index/resource_index/package_run_dependencies/serial_imu1
+[6.524s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/ament_index/resource_index/parent_prefix_path/serial_imu1
+[6.525s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/environment/ament_prefix_path.sh
+[6.525s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/environment/ament_prefix_path.dsv
+[6.525s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/environment/path.sh
+[6.525s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/environment/path.dsv
+[6.525s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/local_setup.bash
+[6.526s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/local_setup.sh
+[6.526s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/local_setup.zsh
+[6.526s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/local_setup.dsv
+[6.526s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/package.dsv
+[6.527s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/ament_index/resource_index/packages/serial_imu1
+[6.527s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/cmake/serial_imu1Config.cmake
+[6.527s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/cmake/serial_imu1Config-version.cmake
+[6.527s] -- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/package.xml
+[6.530s] Invoked command in '/home/sajjad/Downloads/demo_ros2/build/serial_imu1' returned '0': CMAKE_PREFIX_PATH=/home/sajjad/Downloads/demo_ros2/install/custom_msg1:/home/sajjad/Downloads/demo_ros2/install/pub_sub_custom_msg1:/opt/ros/humble /usr/bin/cmake --install /home/sajjad/Downloads/demo_ros2/build/serial_imu1

@@ -1,4 +1,0 @@
-Invoking command in '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu -- -j4 -l4
-Invoked command in '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu -- -j4 -l4
-Invoking command in '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu
-Invoked command in '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu

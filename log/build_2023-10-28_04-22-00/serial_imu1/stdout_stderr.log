@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target talker1[0m
+[35m[1mConsolidate compiler generated dependencies of target listener1[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/serial_port.cpp.o[0m
+[ 60%] Built target listener1
+[01m[K/home/sajjad/Downloads/demo_ros2/ros2_ws/src/serial_imu1/src/serial_port.cpp:[m[K In member function ‘[01m[Kvoid IMUPublisher::timer_callback()[m[K’:
+[01m[K/home/sajjad/Downloads/demo_ros2/ros2_ws/src/serial_imu1/src/serial_port.cpp:83:88:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct ch_imu_data_t[m[K’ has no member named ‘[01m[Kvoltage[m[K’
+   83 |                                                   message.volt = raw.imu[raw.nimu - 1].[01;31m[Kvoltage[m[K;
+      |                                                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/sajjad/Downloads/demo_ros2/ros2_ws/src/serial_imu1/src/serial_port.cpp:85:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct ch_imu_data_t[m[K’ has no member named ‘[01m[Kampere[m[K’
+   85 |                                                   message.amp = raw.imu[raw.nimu - 1].[01;31m[Kampere[m[K;
+      |                                                                                       [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker1.dir/build.make:76: CMakeFiles/talker1.dir/src/serial_port.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

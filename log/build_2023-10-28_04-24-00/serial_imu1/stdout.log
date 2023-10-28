@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target talker1[0m
+[ 40%] Built target listener1
+[ 60%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/serial_port.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable talker1[0m
+[100%] Built target talker1
+-- Install configuration: ""
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/lib/serial_imu1/talker1
+-- Set runtime path of "/home/sajjad/Downloads/demo_ros2/install/serial_imu1/lib/serial_imu1/talker1" to ""
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/lib/serial_imu1/listener1
+-- Set runtime path of "/home/sajjad/Downloads/demo_ros2/install/serial_imu1/lib/serial_imu1/listener1" to ""
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/launch
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/launch/imu_spec_msg.launch.py
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/ament_index/resource_index/package_run_dependencies/serial_imu1
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/ament_index/resource_index/parent_prefix_path/serial_imu1
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/environment/ament_prefix_path.sh
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/environment/ament_prefix_path.dsv
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/environment/path.sh
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/environment/path.dsv
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/local_setup.bash
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/local_setup.sh
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/local_setup.zsh
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/local_setup.dsv
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/package.dsv
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/ament_index/resource_index/packages/serial_imu1
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/cmake/serial_imu1Config.cmake
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/cmake/serial_imu1Config-version.cmake
+-- Installing: /home/sajjad/Downloads/demo_ros2/install/serial_imu1/share/serial_imu1/package.xml
