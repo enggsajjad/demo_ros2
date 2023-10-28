@@ -1,0 +1,226 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (serial_imu) JobQueued: {'identifier': 'serial_imu', 'dependencies': OrderedDict()}
+[0.000316] (serial_imu) JobStarted: {'identifier': 'serial_imu'}
+[0.097746] (serial_imu) JobProgress: {'identifier': 'serial_imu', 'progress': 'cmake'}
+[0.098092] (serial_imu) Command: {'cmd': ['/usr/bin/cmake', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/src/serial_imu', '-DCMAKE_INSTALL_PREFIX=/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu'], 'cwd': '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sajjad'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('PICO_EXTRAS_PATH', '/home/sajjad/pico/pico-extras'), ('HOME', '/home/sajjad'), ('OLDPWD', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sajjad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sajjad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sajjad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/i80pc108:@/tmp/.ICE-unix/1251,unix/i80pc108:/tmp/.ICE-unix/1251'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/65cd37fc_4fef_4880_9ebc_77ab5ab7294d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OX8JD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('PICO_EXAMPLES_PATH', '/home/sajjad/pico/pico-examples'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PICO_SDK_PATH', '/home/sajjad/pico/pico-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PICO_PLAYGROUND_PATH', '/home/sajjad/pico/pico-playground'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu:/opt/ros/humble')]), 'shell': False}
+[0.102470] (-) TimerEvent: {}
+[0.180992] (serial_imu) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.202582] (-) TimerEvent: {}
+[0.262460] (serial_imu) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.271986] (serial_imu) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.302729] (-) TimerEvent: {}
+[0.365959] (serial_imu) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.374669] (serial_imu) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.375134] (serial_imu) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.375693] (serial_imu) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.379696] (serial_imu) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.402867] (-) TimerEvent: {}
+[0.485442] (serial_imu) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.495271] (serial_imu) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.496528] (serial_imu) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.497178] (serial_imu) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.501404] (serial_imu) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.502951] (-) TimerEvent: {}
+[0.603244] (-) TimerEvent: {}
+[0.703577] (-) TimerEvent: {}
+[0.718660] (serial_imu) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.803875] (-) TimerEvent: {}
+[0.822184] (serial_imu) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.873983] (serial_imu) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.879407] (serial_imu) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.889314] (serial_imu) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.904015] (-) TimerEvent: {}
+[0.905587] (serial_imu) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.928963] (serial_imu) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.004174] (-) TimerEvent: {}
+[1.015545] (serial_imu) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.018274] (serial_imu) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.104284] (-) TimerEvent: {}
+[1.147102] (serial_imu) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.179149] (serial_imu) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.204440] (-) TimerEvent: {}
+[1.238238] (serial_imu) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.249634] (serial_imu) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.304604] (-) TimerEvent: {}
+[1.347943] (serial_imu) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.348574] (serial_imu) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.404774] (-) TimerEvent: {}
+[1.445884] (serial_imu) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.447421] (serial_imu) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.504915] (-) TimerEvent: {}
+[1.605279] (-) TimerEvent: {}
+[1.658051] (serial_imu) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.705420] (-) TimerEvent: {}
+[1.805746] (-) TimerEvent: {}
+[1.828861] (serial_imu) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.905881] (-) TimerEvent: {}
+[1.929494] (serial_imu) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.931327] (serial_imu) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.931541] (serial_imu) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.931627] (serial_imu) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.934128] (serial_imu) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.934313] (serial_imu) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.935173] (serial_imu) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.936299] (serial_imu) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.937048] (serial_imu) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.938525] (serial_imu) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.938653] (serial_imu) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.939254] (serial_imu) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.940809] (serial_imu) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.960163] (serial_imu) StdoutLine: {'line': b'-- Generating done\n'}
+[1.962169] (serial_imu) StdoutLine: {'line': b'-- Build files have been written to: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu\n'}
+[1.974342] (serial_imu) CommandEnded: {'returncode': 0}
+[1.975189] (serial_imu) JobProgress: {'identifier': 'serial_imu', 'progress': 'build'}
+[1.976686] (serial_imu) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu', '--', '-j4', '-l4'], 'cwd': '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sajjad'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('PICO_EXTRAS_PATH', '/home/sajjad/pico/pico-extras'), ('HOME', '/home/sajjad'), ('OLDPWD', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sajjad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sajjad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sajjad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/i80pc108:@/tmp/.ICE-unix/1251,unix/i80pc108:/tmp/.ICE-unix/1251'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/65cd37fc_4fef_4880_9ebc_77ab5ab7294d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OX8JD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('PICO_EXAMPLES_PATH', '/home/sajjad/pico/pico-examples'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PICO_SDK_PATH', '/home/sajjad/pico/pico-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PICO_PLAYGROUND_PATH', '/home/sajjad/pico/pico-playground'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu:/opt/ros/humble')]), 'shell': False}
+[2.006031] (-) TimerEvent: {}
+[2.044965] (serial_imu) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/sub_spec.cpp.o\x1b[0m\n'}
+[2.048320] (serial_imu) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/talker.dir/src/ch_serial.c.o\x1b[0m\n'}
+[2.050563] (serial_imu) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/serial_port.cpp.o\x1b[0m\n'}
+[2.106187] (-) TimerEvent: {}
+[2.206485] (-) TimerEvent: {}
+[2.306902] (-) TimerEvent: {}
+[2.407377] (-) TimerEvent: {}
+[2.507768] (-) TimerEvent: {}
+[2.608142] (-) TimerEvent: {}
+[2.708601] (-) TimerEvent: {}
+[2.809050] (-) TimerEvent: {}
+[2.909537] (-) TimerEvent: {}
+[3.009930] (-) TimerEvent: {}
+[3.110354] (-) TimerEvent: {}
+[3.210717] (-) TimerEvent: {}
+[3.311071] (-) TimerEvent: {}
+[3.411452] (-) TimerEvent: {}
+[3.511798] (-) TimerEvent: {}
+[3.612147] (-) TimerEvent: {}
+[3.712512] (-) TimerEvent: {}
+[3.812872] (-) TimerEvent: {}
+[3.913249] (-) TimerEvent: {}
+[4.013615] (-) TimerEvent: {}
+[4.113960] (-) TimerEvent: {}
+[4.214349] (-) TimerEvent: {}
+[4.314696] (-) TimerEvent: {}
+[4.415373] (-) TimerEvent: {}
+[4.515720] (-) TimerEvent: {}
+[4.616089] (-) TimerEvent: {}
+[4.716432] (-) TimerEvent: {}
+[4.816781] (-) TimerEvent: {}
+[4.917141] (-) TimerEvent: {}
+[5.017502] (-) TimerEvent: {}
+[5.117870] (-) TimerEvent: {}
+[5.218232] (-) TimerEvent: {}
+[5.318687] (-) TimerEvent: {}
+[5.419041] (-) TimerEvent: {}
+[5.519412] (-) TimerEvent: {}
+[5.619797] (-) TimerEvent: {}
+[5.720153] (-) TimerEvent: {}
+[5.820517] (-) TimerEvent: {}
+[5.920968] (-) TimerEvent: {}
+[6.021332] (-) TimerEvent: {}
+[6.121694] (-) TimerEvent: {}
+[6.222056] (-) TimerEvent: {}
+[6.322422] (-) TimerEvent: {}
+[6.422798] (-) TimerEvent: {}
+[6.523156] (-) TimerEvent: {}
+[6.623516] (-) TimerEvent: {}
+[6.723904] (-) TimerEvent: {}
+[6.824299] (-) TimerEvent: {}
+[6.924657] (-) TimerEvent: {}
+[7.024986] (-) TimerEvent: {}
+[7.125347] (-) TimerEvent: {}
+[7.225703] (-) TimerEvent: {}
+[7.326041] (-) TimerEvent: {}
+[7.426407] (-) TimerEvent: {}
+[7.528526] (-) TimerEvent: {}
+[7.628894] (-) TimerEvent: {}
+[7.729275] (-) TimerEvent: {}
+[7.829716] (-) TimerEvent: {}
+[7.930174] (-) TimerEvent: {}
+[8.030667] (-) TimerEvent: {}
+[8.131097] (-) TimerEvent: {}
+[8.168608] (serial_imu) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[8.231206] (-) TimerEvent: {}
+[8.331605] (-) TimerEvent: {}
+[8.431978] (-) TimerEvent: {}
+[8.464849] (serial_imu) StdoutLine: {'line': b'[ 80%] Built target talker\n'}
+[8.532139] (-) TimerEvent: {}
+[8.632542] (-) TimerEvent: {}
+[8.732919] (-) TimerEvent: {}
+[8.833290] (-) TimerEvent: {}
+[8.933713] (-) TimerEvent: {}
+[9.034173] (-) TimerEvent: {}
+[9.134529] (-) TimerEvent: {}
+[9.234886] (-) TimerEvent: {}
+[9.335258] (-) TimerEvent: {}
+[9.435618] (-) TimerEvent: {}
+[9.535984] (-) TimerEvent: {}
+[9.636348] (-) TimerEvent: {}
+[9.736700] (-) TimerEvent: {}
+[9.837085] (-) TimerEvent: {}
+[9.937461] (-) TimerEvent: {}
+[10.037868] (-) TimerEvent: {}
+[10.138250] (-) TimerEvent: {}
+[10.238604] (-) TimerEvent: {}
+[10.338964] (-) TimerEvent: {}
+[10.439335] (-) TimerEvent: {}
+[10.539700] (-) TimerEvent: {}
+[10.640088] (-) TimerEvent: {}
+[10.740444] (-) TimerEvent: {}
+[10.840833] (-) TimerEvent: {}
+[10.941186] (-) TimerEvent: {}
+[11.041573] (-) TimerEvent: {}
+[11.141915] (-) TimerEvent: {}
+[11.242351] (-) TimerEvent: {}
+[11.342701] (-) TimerEvent: {}
+[11.443077] (-) TimerEvent: {}
+[11.543448] (-) TimerEvent: {}
+[11.643801] (-) TimerEvent: {}
+[11.744184] (-) TimerEvent: {}
+[11.844528] (-) TimerEvent: {}
+[11.944893] (-) TimerEvent: {}
+[12.045315] (-) TimerEvent: {}
+[12.145682] (-) TimerEvent: {}
+[12.246103] (-) TimerEvent: {}
+[12.346466] (-) TimerEvent: {}
+[12.446847] (-) TimerEvent: {}
+[12.547211] (-) TimerEvent: {}
+[12.647574] (-) TimerEvent: {}
+[12.747890] (-) TimerEvent: {}
+[12.824715] (serial_imu) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[12.848026] (-) TimerEvent: {}
+[12.948376] (-) TimerEvent: {}
+[13.048829] (-) TimerEvent: {}
+[13.149190] (-) TimerEvent: {}
+[13.249490] (-) TimerEvent: {}
+[13.349804] (-) TimerEvent: {}
+[13.414678] (serial_imu) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[13.429543] (serial_imu) CommandEnded: {'returncode': 0}
+[13.449889] (-) TimerEvent: {}
+[13.471466] (serial_imu) JobProgress: {'identifier': 'serial_imu', 'progress': 'install'}
+[13.483914] (serial_imu) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu'], 'cwd': '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sajjad'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('PICO_EXTRAS_PATH', '/home/sajjad/pico/pico-extras'), ('HOME', '/home/sajjad'), ('OLDPWD', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sajjad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sajjad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sajjad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/i80pc108:@/tmp/.ICE-unix/1251,unix/i80pc108:/tmp/.ICE-unix/1251'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/65cd37fc_4fef_4880_9ebc_77ab5ab7294d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OX8JD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('PICO_EXAMPLES_PATH', '/home/sajjad/pico/pico-examples'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PICO_SDK_PATH', '/home/sajjad/pico/pico-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PICO_PLAYGROUND_PATH', '/home/sajjad/pico/pico-playground'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu:/opt/ros/humble')]), 'shell': False}
+[13.495578] (serial_imu) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.495887] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/lib/serial_imu/talker\n'}
+[13.497861] (serial_imu) StdoutLine: {'line': b'-- Set runtime path of "/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/lib/serial_imu/talker" to ""\n'}
+[13.498167] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/lib/serial_imu/listener\n'}
+[13.503225] (serial_imu) StdoutLine: {'line': b'-- Set runtime path of "/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/lib/serial_imu/listener" to ""\n'}
+[13.503556] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/launch\n'}
+[13.503745] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/launch/imu_spec_msg.launch.py\n'}
+[13.504027] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/ament_index/resource_index/package_run_dependencies/serial_imu\n'}
+[13.504259] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/ament_index/resource_index/parent_prefix_path/serial_imu\n'}
+[13.504495] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/environment/ament_prefix_path.sh\n'}
+[13.504799] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/environment/ament_prefix_path.dsv\n'}
+[13.505036] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/environment/path.sh\n'}
+[13.505278] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/environment/path.dsv\n'}
+[13.505522] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/local_setup.bash\n'}
+[13.505783] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/local_setup.sh\n'}
+[13.506026] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/local_setup.zsh\n'}
+[13.506241] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/local_setup.dsv\n'}
+[13.506591] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/package.dsv\n'}
+[13.506955] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/ament_index/resource_index/packages/serial_imu\n'}
+[13.507251] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/cmake/serial_imuConfig.cmake\n'}
+[13.507470] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/cmake/serial_imuConfig-version.cmake\n'}
+[13.507693] (serial_imu) StdoutLine: {'line': b'-- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/package.xml\n'}
+[13.510170] (serial_imu) CommandEnded: {'returncode': 0}
+[13.550042] (-) TimerEvent: {}
+[13.651318] (-) TimerEvent: {}
+[13.738484] (serial_imu) JobEnded: {'identifier': 'serial_imu', 'rc': 0}
+[13.739269] (-) EventReactorShutdown: {}

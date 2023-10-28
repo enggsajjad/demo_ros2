@@ -1,0 +1,30 @@
+[0.101s] Invoking command in '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu -- -j4 -l4
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.172s] [ 40%] Built target listener
+[0.180s] [ 60%] [32mBuilding CXX object CMakeFiles/talker.dir/src/serial_port.cpp.o[0m
+[5.534s] [ 80%] [32m[1mLinking CXX executable talker[0m
+[5.807s] [100%] Built target talker
+[5.822s] Invoked command in '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu -- -j4 -l4
+[5.878s] Invoking command in '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu
+[5.888s] -- Install configuration: ""
+[5.888s] -- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/lib/serial_imu/talker
+[5.890s] -- Set runtime path of "/home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/lib/serial_imu/talker" to ""
+[5.891s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/lib/serial_imu/listener
+[5.891s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/launch
+[5.891s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/launch/imu_spec_msg.launch.py
+[5.892s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/ament_index/resource_index/package_run_dependencies/serial_imu
+[5.892s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/ament_index/resource_index/parent_prefix_path/serial_imu
+[5.892s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/environment/ament_prefix_path.sh
+[5.892s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/environment/ament_prefix_path.dsv
+[5.892s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/environment/path.sh
+[5.893s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/environment/path.dsv
+[5.893s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/local_setup.bash
+[5.893s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/local_setup.sh
+[5.893s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/local_setup.zsh
+[5.893s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/local_setup.dsv
+[5.893s] -- Installing: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/package.dsv
+[5.893s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/ament_index/resource_index/packages/serial_imu
+[5.893s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/cmake/serial_imuConfig.cmake
+[5.894s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/cmake/serial_imuConfig-version.cmake
+[5.894s] -- Up-to-date: /home/sajjad/Downloads/demo_ros2/serial_imu_ws/install/serial_imu/share/serial_imu/package.xml
+[5.895s] Invoked command in '/home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sajjad/Downloads/demo_ros2/serial_imu_ws/build/serial_imu
